@@ -4,7 +4,7 @@
 // the value is what we are going to pass to the state
 // in our case the value will either be 'on' or 'off'
 
-export default function flipSwith(value) {
+export default function flipSwitch(value) {
     return {
       type: 'FLIP_SWITCH',
       value
